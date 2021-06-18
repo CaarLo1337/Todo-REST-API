@@ -1,4 +1,3 @@
-const { create } = require('../Models/todoModel');
 const Todos = require('../Models/todoModel');
 
 exports.newTodo = (req, res) => {
