@@ -14,4 +14,11 @@ exports.getAllTodos = (req, res) => {
         if(err) res.send(err);
         res.json(todo);
     });
-}
+};
+
+exports.getTodo = (req, res) => {
+    Todos.findOne(req.params.todoId, (err, todo) => {
+        if(err) res.send(err);
+        res.json(todo);
+    });
+};

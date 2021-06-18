@@ -9,4 +9,7 @@ module.exports = (app) => {
     app.route('/todos')
     .post(todoController.newTodo)
     .get(todoController.getAllTodos)
+
+    app.route('/todos/:id')
+    .get(todoController.getTodo)
 };
