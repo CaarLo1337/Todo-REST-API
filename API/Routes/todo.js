@@ -12,4 +12,6 @@ module.exports = (app) => {
 
     app.route('/todos/:id')
     .get(todoController.getTodo)
+    .delete(todoController.deleteTodo)
+    .put(todoController.updateTodo)
 };

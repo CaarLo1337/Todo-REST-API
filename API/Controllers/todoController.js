@@ -21,3 +21,17 @@ exports.getTodo = (req, res) => {
         res.json(todo);
     });
 };
+
+exports.deleteTodo = (req, res) => {
+    Todos.remove({_id: req.params.todoId}, (err, todo) => {
+        if(err) res.send(err);
+        res.send({message: "delete successfull", todo});
+    });
+};
+
+exports.updateTodo = (req, res) => {
+    Todos.findOneAndUpdate(req.params.id, req.body, {new: true}, (err, todo) => {
+        if(err) res.send(err)
+        res.json(todo);
+    })
+}
