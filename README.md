@@ -21,3 +21,9 @@ Run Project
 npm run start
 ```
 
+### Dependencies
+
+*express
+*mongoose
+*dotenv
+*nodemon
