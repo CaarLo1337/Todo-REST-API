@@ -23,7 +23,7 @@ npm run start
 
 ### Dependencies
 
-*express
-*mongoose
-*dotenv
-*nodemon
+* express
+* mongoose
+* dotenv
+* nodemon
