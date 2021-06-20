@@ -4,11 +4,10 @@
   "description": "rest api for todo lists",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "c. beck",
-  "license": "ISC",
+  "author": "C. Beck",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
