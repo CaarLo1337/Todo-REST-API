@@ -21,9 +21,12 @@ Run Project
 npm run start
 ```
 
-### Dependencies
+## Dependencies
 
 * express
 * mongoose
 * dotenv
 * nodemon
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
