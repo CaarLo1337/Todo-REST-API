@@ -18,6 +18,10 @@ DB_CONNECTION=<mongodb>
 
 Run Project
 ```bash
+npm run dev
+```
+
+```bash
 npm run start
 ```
 
