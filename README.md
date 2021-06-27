@@ -31,6 +31,7 @@ npm run start
 * mongoose
 * dotenv
 * nodemon
+* cors
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
