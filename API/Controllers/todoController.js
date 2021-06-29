@@ -30,7 +30,7 @@ exports.deleteTodo = (req, res) => {
 };
 
 exports.updateTodo = (req, res) => {
-    Todos.findOneAndUpdate(req.params.id, req.body, {new: true}, (err, todo) => {
+    Todos.findOneAndUpdate(req.params.id, req.body, {new: true, runValidators: true}, (err, todo) => {
         if(err) res.send(err)
         res.json(todo);
     })
